@@ -1,0 +1,46 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="css.css" />
+    <title>Coding API</title>
+  </head>
+  <body>
+    <div class="container">
+      <h3>Write a program to find factorial of a number</h3>
+      <hr />
+      <div class="language-selector">
+        <h5>Type Your Code Below</h5>
+        <select id="language">
+          <option value="8">Java</option>
+          <option value="4">Javascript</option>
+          <option value="7">C</option>
+          <option value="0">Python</option>
+          <option value="77">CPP</option>
+        </select>
+      </div>
+      <br />
+      <div id="editor">
+        <div id="line-counter">
+          <p>1</p>
+        </div>
+        <div id="code-container" contenteditable="true"></div>
+      </div>
+      <br />
+      <div id="result">
+      </div>
+      <br />
+      <button class="btn btn-warning" id="submit">Compile & Run</button>
+    </div>
+    <script src="java.js"></script>
+  </body>
+</html>
